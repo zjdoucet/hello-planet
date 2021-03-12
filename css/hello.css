@@ -1,0 +1,117 @@
+/* Color Scheme
+body bg color #edf2f7;
+blue #63b3ed;
+red  #dd6b20;  */
+
+html {                           
+	font-size: 62.5%;  
+}               
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #68778d;
+	font-size: 1.6rem;
+	background-color: #edf2f7;
+}
+
+header,
+main,
+footer {
+	background-color: #ffffff;
+}
+
+header {
+	text-align: center;
+	font-weight: 600;
+	padding: 4%;
+	}
+
+header h1 {
+	font-size: calc(16vw);
+}
+
+header h1,
+header h2 span {
+	color: #63b3ed;
+
+}
+
+header h2 {
+	font-size: 2.4rem;
+	line-height: 3;
+	}
+
+header a {
+	border-radius: 5px;
+}
+
+header h2 a:link,
+header h2 a:visited {
+	color: #ffffff;
+	background-color: #dd6b20;
+	border: 2px solid #dd6b20;
+	padding: 14px;
+	text-decoration: none;
+}
+
+header h2 a:hover,
+header h2 a:active{
+	color: #68778d;	
+	background-color: #ffffff;
+	transition: .5s;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+main ol {
+	text-align: center;
+	font-size: 1.8rem;
+	padding: 3.2rem;
+	line-height: 2;
+	width: 100%;
+	}
+
+.icon-winners-ribbon,
+.icon-keyboard {
+	fill: #fff;
+}
+
+main ol li:first-child {
+	background-color:  #63b3ed;
+	display: flex;
+	justify-content: center;
+	padding: 4%;
+}
+
+main ol li:nth-child(2) {
+	font-weight: 700;
+	font-size: 3.2rem;
+}
+
+footer {
+	line-height: 3;
+	text-align: center;
+}
+
+footer p {
+	font-style: italic;
+}
+
+@media only screen and (min-width: 700px) {
+
+	main ol {
+		width: 33%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	header,
+	main,
+	footer {
+		width: 1000px;
+		margin: 0 auto;
+}
